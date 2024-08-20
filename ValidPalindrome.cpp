@@ -19,7 +19,7 @@ string convertToAlpha(string s){
 
 bool isPalindrome(string s) {
     s = convertToAlpha(s);
-    int pointer1, pointer2;
+     int pointer1, pointer2;
     int len = s.size();
     if(len%2==0){
         pointer1=len/2;
