@@ -1,0 +1,105 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Leetcode2_0",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ClimbingStairs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ClimbingStairs-Debug-5829cc76072ec75d3433.json",
+					"name" : "ClimbingStairs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "HouseRobber-II::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-HouseRobber-II-Debug-411bf7af856223575b87.json",
+					"name" : "HouseRobber-II",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Leetcode2_0::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Leetcode2_0-Debug-71ccc37360e1d056efea.json",
+					"name" : "Leetcode2_0",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "LongestPalindromicSubstring::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-LongestPalindromicSubstring-Debug-f208b796ed99db496e88.json",
+					"name" : "LongestPalindromicSubstring",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "MinCostClimbingStairs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-MinCostClimbingStairs-Debug-8a84b0a8523eb604a4be.json",
+					"name" : "MinCostClimbingStairs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "houseRobber::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-houseRobber-Debug-41b493c617175d180e93.json",
+					"name" : "houseRobber",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/Academics/Problem Solving/Leetcode2.0/cmake-build-debug",
+		"source" : "D:/Academics/Problem Solving/Leetcode2.0"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
