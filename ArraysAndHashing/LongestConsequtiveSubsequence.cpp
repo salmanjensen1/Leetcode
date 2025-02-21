@@ -36,5 +36,5 @@ int longestConsecutive(vector<int>& nums) {
 int main(){
     vector<int> v = {0,3,7,2,5,8,4,6,0,1};
     int lcs = longestConsecutive(v);
-    cout << lcs << endl;
+    cout << lcs << endl;    
 }

@@ -10,7 +10,7 @@ int trap(vector<int>& height) {
     int i=0, j=len-1, sum=0;
     int left_max = height[i];
     int right_max = height[j];
-
+    height.push
     while(i<j){
         if(height[i]<=height[j]){
             sum+= left_max - height[i];

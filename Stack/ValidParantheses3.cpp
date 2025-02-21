@@ -13,7 +13,7 @@ bool isValid(string s) {
             st.push(ch);
         }
         else if(
-                s.empty() ||
+                st.empty() ||
                 ch == ')' && st.top()!='(' ||
                 ch=='}' && st.top()!= '{' ||
                 ch == ']' && st.top() != '['
@@ -26,13 +26,13 @@ bool isValid(string s) {
         }
     }
     if(st.empty())
-        return false;
-    return true;
+        return true;
+    return false;
 }
 
 int main(){
     bool ans;
-    string s = "({[[]})";
+    string s = "({[]})";
     ans = isValid(s);
     if(ans){
         cout << "true"<<endl;

@@ -19,7 +19,7 @@ int climbStairs(int n) {
     DP[n] = climbStairs(n-1) + climbStairs(n-2);
 
     return DP[n];
-}
+} 
 
 int main(){
     int ways = climbStairs(3);
