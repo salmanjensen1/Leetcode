@@ -11,7 +11,7 @@ int recurse(vector<int>& cost, int index){
     if(index > cost.size()-1){ //if index points outside of array
         return 0;
     }
-
+    //memoization
     if(DP[index]!= -1){
         return DP[index];
     }
