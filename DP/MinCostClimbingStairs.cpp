@@ -8,7 +8,7 @@ using namespace std;
 int DP[1000];
 
 int recurse(vector<int>& cost, int index){
-    if(index > cost.size()-1){
+    if(index > cost.size()-1){ //if index points outside of array
         return 0;
     }
 
